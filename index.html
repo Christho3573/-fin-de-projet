@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bon Voyage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+
+
+
+    <!-- font awesome cdn link  -->
+
+    <!-- custom css file link  -->
+
+
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>Bon</span>voyage</a>
+
+        <nav class="navbar">
+            <a href="#Bienvenue">Bienvenue</a>
+            <a href="#vos">Commande</a>
+            <a href="https://www.atlas-monde.net/tous-les-pays/">Pays</a>
+            <a href="#services">services</a>
+            <a href="#gallery">galerie</a>
+            <a href="#ÉQUIPE">Nos Equipe</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>profitez bien de vos vacances</h3>
+            <p>la vie est belle et courte profitez de chaque instant</p>
+            <a href="#gallery" class="btn">En savoir plus</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="image/video6.mp4"></span>
+            <span class="vid-btn" data-src="image/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="image/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="image/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="image/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- book section starts  -->
+
+    <!-- <section class="RESERVATIONS" id="RESERVATIONS"> -->
+    <section class="vos" id="vos">
+
+
+        <h1 class="heading">
+            <span>V</span>
+            <span>o</span>
+            <span>s</span>
+            <span class="space"></span>
+            <span>R</span>
+            <span>é</span>
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>a</span>
+            <span>t</span>
+            <span>i</span>
+            <span>o</span>
+            <span>n</span>
+            <span>s</span>
+
+
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="image/panda (1).png" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>Vous-allez où</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>Nombre de personne</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>Arrivées</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>Retour</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="Reserver">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- book section ends -->
+
+    <!-- packages section starts  -->
+
+    <section class="Pays" id="Pays">
+
+        <h1 class="heading">
+            <span>P</span>
+            <span>A</span>
+            <span>Y</span>
+            <span>S</span>
+            <!-- <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span> -->
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/tours eifel.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Paris</h3>
+                    <p>Paris, capitale de la France, est une grande ville européenne et un centre mondial de l'art, de la mode, de la gastronomie et de la culture.!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $149.99 <span>$194.99</span> </div>
+                    <a href="#vos" class="btn">Réserver</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/piramid.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Egypte </h3>
+                    <p>L'Égypte est un pont entre l'Afrique du Nord-Est et le Moyen-Orient. Il y a des monuments millénaires le sphinx et les pyramides colossales de Gizeh!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $109.95 <span>$129.00</span> </div>
+                    <a href="#vos" class="btn">Réserver</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/sidney.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Sidney (Australie) </h3>
+                    <p>L'Australie est un pays et continent entouré par les océans Indien et Pacifique. Ses principales villes, Sydney, Brisbane, Melbourne, Perth et Adélaïde,!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $220.00 <span>$350.00</span> </div>
+                    <a href="#vos" class="btn">Réserver</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/Dubai.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-al"></i> Dubai </h3>
+                    <p>Dubaï est une ville et un émirat des Émirats arabes unis réputé pour son shopping de luxe, son architecture ultramoderne et sa vie nocturne animée.!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $1250.00 <span>$1420.00</span> </div>
+                    <a href="#vos" class="btn">Réserver</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/mer et montagne.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Haiti </h3>
+                    <p>ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $199.00 <span>$250.00</span> </div>
+                    <a href="#vos" class="btn">Réserver</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/HOLLYWOOD.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Los Angeles (USA) </h3>
+                    <p>Pour sa célébrité et identité culturelle en tant que centre historique des studios de cinéma.!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $350.00 <span>$470.00</span> </div>
+                    <a href="#vos" class="btn">Réserver</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Hôtels abordables</h3>
+                <p>Vous cherchez un endroit où séjourner ? Voilà ce qu’il vous faut : Bon voyage vous propose un hôtel familial qui vous apporte le meilleur, et rendre votre séjour encore plus spécial.!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Nourriture et boissons</h3>
+                <p>Nos chef cuisinier fait référence à divers styles gastronomiques dérivés de la tradition Européenne, Américian, Japonais, Chinoi etc.!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Guide de sécurité</h3>
+                <p> Nos infirmières sont présent, notre devoir c'est de vous donnez un asistence en cas d'urgence médical notamment pour les personnes en cas d'accidents et maladies.!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Autour du monde</h3>
+                <p>Nous travaillons en collaboration avec plus de dix milles Hotel, guest house, chalet, et des maison d'hébergement partout a travers le monde.!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Voyage le plus rapide</h3>
+                <p>Nous vous proposons des voyages simultanément en toute type de transport : avion, hélicopter, bus, train, voiture, et bateau 7/7 et 24/24 meme le jours férier<br> +33 7 49 39 41 67 !</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Les aventures</h3>
+                <p>Quelle que soit la voie que vous emprunterez, vivez vos aventures à pleins air avec nos spécialiste randonnée! Démarrez votre aventure durant vos voyages </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/vive les vacances.png" alt="">
+                <div class="content">
+                    <h3>Vive les vacances</h3>
+                    <p>Ils permettent de prendre du bon temps au soleil à la montagne et même au bout du monde.</p>
+                    <a href="https://www.businessinsider.fr/les-20-plus-belles-plages-de-france-187739#la-plage-de-nonza-en-haute-corse" class="btn">En savoir plus</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/piscine.png" alt="">
+                <div class="content">
+                    <h3>Royal Decameron </h3>
+                    <p>Venez redécouvrir la Magie du Rêve au Club Indigo Dans l’ambiance chaleureuse .</p>
+                    <a href="https://www.google.com/travel/hotels/Ha%C3%AFti/entity/CgoI0_KxpeK5gsJKEAE?g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4306835%2C4317915%2C4371334%2C4401769%2C4419364%2C4429192%2C4482438%2C4486153%2C4503615%2C4509341%2C4515404%2C4545890%2C4561952%2C4584145%2C4588761%2C4270859%2C4284970%2C4291517&hl=fr-FR&gl=fr&ssta=1&ap=aAE&q=decameron%20haiti&rp=ENPysaXiuYLCShDAiNThjq2JzAc4AkABSAOiAQZIYcOvdGnAAQPIAQA&ictx=1&ved=0CAAQ5JsGahcKEwiQ7s7V6vPxAhUAAAAAHQAAAAAQAw&utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAESABogCgIaABIaEhQKBwjlDxAHGBwSBwjlDxAHGB0YATICEAAqCQoFOgNFVVIaAA"
+                        class="btn">En savoir plus</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/louvre.png" alt="">
+                <div class="content">
+                    <h3>Musée du Louvre</h3>
+                    <p>Musée du Louvre est un musée situé dans le 1ᵉʳ arrondissement de Paris, en France, .</p>
+                    <a href="https://www.louvre.fr/" class="btn">En savoir plus</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/PLACE4.jpg" alt="">
+                <div class="content">
+                    <h3>Temple de chine</h3>
+                    <p>Est un monument de Pékin, situé au sud de la ville Chinoise. ..</p>
+                    <a href="https://www.easyvoyage.com/chine" class="btn">En savoir plus</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/PLACE5.jpg" alt="">
+                <div class="content">
+                    <h3>Ballon-vollat</h3>
+                    <p>Une montgolfière est un aérostat composé d'une nacelle surmontée d'une enveloppe très légère.</p>
+                    <a href="https://universdujapon.com/blogs/japon/10-symboles-emblematiques-du-japon" class="btn">En savoir plus</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/mont st michel.png" alt="">
+                <div class="content">
+                    <h3>Le Mont-Saint-Michel</h3>
+                    <p>Le Mont-Saint-Michel est une commune française située dans le département de la Manche en Normandie.</p>
+                    <a href="https://www.bienvenueaumontsaintmichel.com/fr" class="btn">En savoir plus</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/place1.jpg" alt="">
+                <div class="content">
+                    <h3>Le parthénon</h3>
+                    <p>Il est probablement le temple qui a le plus inspiré les architectes néo-classiques.</p>
+                    <a href="https://fr.hotels.com/go/grece/choses-a-faire-athenes" class="btn">En savoir plus</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/CITADELLE.png" alt="">
+                <div class="content">
+                    <h3>CITADELLE LA FERRIERE</h3>
+                    <p>La Citadelle La Ferrière est un ouvrage militaire construit au début du XIXᵉ siècle à Milot en Haïti.</p>
+                    <a href="https://www.tresorsdumonde.fr/citadelle-la-ferriere/" class="btn">En savoir plus</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/salade vert.png" alt="">
+                <div class="content">
+                    <h3>Gastronomie Française</h3>
+                    <p>La cuisine française fait référence à divers styles gastronomiques dérivés de la tradition française.</p>
+                    <a href="https://www.campusfrance.org/fr/specialites-culinaires-gastronomie-francaise" class="btn">En savoir plus</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="ÉQUIPE" id="ÉQUIPE">
+
+        <h1 class="heading">
+            <span>É</span>
+            <span>Q</span>
+            <span>U</span>
+            <span>i</span>
+            <span>P</span>
+            <span>E</span>
+        </h1>
+
+        <div class="swiper-container ÉQUIPE-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="image/IMG-20210717-WA0010.jpg" alt="">
+                        <h3>François Rosnel</h3>
+                        <p>Developpeur web<br>Directeur, Bon Voyage agence<br>Union codeur</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="image/christelle.png" alt="">
+                        <h3>Baptiste Domy Christelle</h3>
+                        <p>Comptable<br>Directrice des Marketing<br> Bon Voyage agence</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="image/crf.jpg" alt="">
+                        <h3>Christhopher Rosnel François</h3>
+                        <p>Directeur responsable de gardes des enfants <br>et responsable des transports<br> <br></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="image/JAMES COLME.png" alt="">
+                        <h3>James Colmé</h3>
+                        <p>Secrétaire Général<br>Psycologue polyvalent<br> Socioloque, </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="image/Rosnel.png" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="Envoyer message">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- brand section  -->
+    <section class="brand-container">
+
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Apropos</h3>
+
+                <p>Bon Voyage, nous sommes une équipe, nous travaillons en collaboration avec plus que dix milles Hotels, guest house, chalets, et des maison d'hébergements partout a travers le monde,</p>
+                <p> Nous vous proposons des voyages simultanément en toute type de transport : avion, hélicopter, bus, train, voiture, et bateau 7/7 et 24/24 meme le jours férier.</p>
+                avec plus
+
+            </div>
+
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="https://www.toureiffel.paris/fr">France</a>
+                <a href="https://romesite.fr/">Italie</a>
+                <a href="https://www.office-tourisme-usa.com/etat/new-york/">États-Unis</a>
+                <a href="https://nelsond.mondoblog.org/le-top-10-des-plus-belles-communes-dhaiti/">Haiti</a>
+            </div>
+            <div class="box">
+                <h3>INFORMATIONS LÉGALES</h3>
+                <a href="information.html">Qui sommes-nous?</a>
+                <a href="information.html">Questions fréquentes</a>
+                <a href="information.html">Vie privée / cookies</a>
+                <a href="information.html">Vos droits et obligation</a>
+                <a href="information.html">Le service de paiement sécurisé et la livraison</a>
+            </div>
+            <div class="box">
+                <h3>Réseau Sociaux</h3>
+                <a href="https://www.francois-rosnel.fr">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> francois-rosnel <span>Developpeur web</span> | @ Juil 2021 </h1>
+
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
